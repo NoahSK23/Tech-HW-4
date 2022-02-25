@@ -12,7 +12,7 @@
         }
     </style>
 
-    <h5>Bootstrap Carousel</h5>
+    <h5 class="text-center">Bootstrap Carousel</h5>
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -21,40 +21,36 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-25" style="position: absolute; top: 50%; left: 50%; transform: translate(-175%, -80%); margin: 0 auto;"
+                <img class="d-block w-25" style="position: absolute; top: 50%; left: 50%; transform: translate(-157%, -80%); margin: 0 auto;"
                     src="images/gengar.png" alt="Gengar">
 
                 <div class="container">
                     <div class="carousel-caption text-start">
                         <h1>This is an example of an image carousel</h1>
                         <p>This is used on the front of the Petco website. Click the button to go to the website</p>
-                        <p><a class="btn btn-lg btn-primary" href="https://www.petco.com/">Petco Website</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="https://www.petco.com/" target="_blank">Petco Website</a></p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="#777" />
-                </svg>
+            <div class="carousel-item" style="background: #ba8746;">
+                <img style="position:absolute; transform: translate(30%, -10%);" src="images/eevee.jpg" alt="Eevee"/>
 
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        <h1>Example of Centered Text</h1>
+                        <p>This is the second slide and has a centered text (which is done by default)</p>
+                        <p><a class="btn btn-lg btn-primary" href="row.aspx">Click here to go to the next component</a></p>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="#777" />
-                </svg>
+                <img class="d-block w-50" style="position: absolute; top: 50%; left: 50%; transform: translate(-70%, -60%); margin: 0 auto;"
+                    src="images/dragonite.png" alt="Dragonite">
 
                 <div class="container">
                     <div class="carousel-caption text-end">
-                        <h1>One more for good measure.</h1>
-                        <p>Some representative placeholder content for the third slide of this carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        <h1>Text on the left.</h1>
+                        <p>This is done by using the "text-end" class.</p>
                     </div>
                 </div>
             </div>

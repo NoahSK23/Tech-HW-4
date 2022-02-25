@@ -68,7 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="images\charizard.png" />
+    <Content Include="images\dragonite.png" />
+    <Content Include="images\eevee.jpg" />
     <Content Include="images\gengar.png" />
+    <Content Include="images\pikachu.png" />
+    <Content Include="images\Typhlosion-Hisui.png" />
+    <Content Include="row.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +93,13 @@
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="row.aspx.cs">
+      <DependentUpon>row.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="row.aspx.designer.cs">
+      <DependentUpon>row.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />
