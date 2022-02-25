@@ -68,11 +68,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="grid.aspx" />
+    <Content Include="images\berry.png" />
     <Content Include="images\charizard.png" />
+    <Content Include="images\curry.png" />
     <Content Include="images\dragonite.png" />
     <Content Include="images\eevee.jpg" />
     <Content Include="images\gengar.png" />
+    <Content Include="images\icestone.png" />
     <Content Include="images\pikachu.png" />
+    <Content Include="images\pokeball.png" />
+    <Content Include="images\potion.png" />
+    <Content Include="images\tm.jfif" />
     <Content Include="images\Typhlosion-Hisui.png" />
     <Content Include="row.aspx" />
     <Content Include="Web.config" />
@@ -84,6 +91,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="grid.aspx.cs">
+      <DependentUpon>grid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="grid.aspx.designer.cs">
+      <DependentUpon>grid.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>

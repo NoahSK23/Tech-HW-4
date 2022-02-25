@@ -14,7 +14,7 @@
     <form id="form1" runat="server">
         <div class="container">
             <nav class="navbar navbar-expand-xl navbar-light">
-                <a class="navbar-brand mb-0 h1" href="#">Tech HW 4
+                <a class="navbar-brand mb-0 h1" href="Default.aspx">Tech HW 4
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
                             <a class="nav-link" href="row.aspx">Row</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="grid.aspx">Grid</a>
                         </li>
                     </ul>
                 </div>
